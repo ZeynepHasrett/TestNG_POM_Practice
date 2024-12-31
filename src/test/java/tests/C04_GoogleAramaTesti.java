@@ -29,7 +29,30 @@ public class C04_GoogleAramaTesti {
 
         // sayfayi kapatin
         Driver.quitDriver();
-
     }
 
+    /*
+
+    public class GoogleSearchTest {
+        private WebDriver driver;
+        @BeforeTest
+        public void setUp() {
+            System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
+            driver = new ChromeDriver();
+            driver.get("https://www.google.com");
+        }
+        @Test
+        public void testGoogleSearch() {
+            WebElement searchBox = driver.findElement(By.name("q"));
+            searchBox.sendKeys("Selenium WebDriver");
+            searchBox.submit();
+            WebElement resultStats = driver.findElement(By.id("result-stats"));
+            Assert.assertTrue(resultStats.isDisplayed());
+        }
+        @AfterTest
+        public void tearDown() {
+            driver.quit();
+        }
+    }
+*/
 }
